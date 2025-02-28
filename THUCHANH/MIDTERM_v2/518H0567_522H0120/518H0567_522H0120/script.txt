@@ -1,0 +1,78 @@
+1. Nhận dạng thực thể tên (NER) là gì?
+   - NER là một nhiệm vụ trong Xử lý Ngôn ngữ Tự nhiên (NLP), nhằm mục đích phát hiện và phân loại các thực thể trong văn bản, như tên người, tổ chức, địa điểm, thời gian, v.v.
+   - Đầu vào là một chuỗi từ (chuỗi văn bản), đầu ra là các nhãn cho mỗi từ, xác định thực thể của chúng (ví dụ: B-ORG cho từ đầu tiên của một tổ chức, I-ORG cho các từ tiếp theo của tổ chức đó, O cho các từ không thuộc thực thể nào).
+
+2. Phương pháp phân loại cho NER
+   Để xây dựng mô hình NER, ta có thể sử dụng các mô hình phân loại dạng chuỗi (sequence classification) như sau:
+
+   Bước 1: Tiền xử lý và nhãn hóa dữ liệu
+   - Gán nhãn dữ liệu: Mỗi từ trong chuỗi sẽ được gán nhãn bằng phương pháp chuẩn BIO:
+     - B-X: **Begin** của một thực thể loại X.
+     - I-X: **Inside** (bên trong) thực thể loại X.
+     - O: **Outside** (bên ngoài) tất cả các thực thể.
+   - Ví dụ: Trong câu "Apple Inc. is located in Cupertino," ta sẽ gán nhãn:
+     ```
+     Apple   B-ORG
+     Inc.    I-ORG
+     is      O
+     located O
+     in      O
+     Cupertino B-LOC
+     ```
+   - Chia dữ liệu thành tập huấn luyện và kiểm thử.
+
+   Bước 2: Sử dụng mô hình ngôn ngữ tiền huấn luyện (như BERT)
+   - BERT (Bidirectional Encoder Representations from Transformers): Một mô hình phổ biến cho các tác vụ phân loại, đặc biệt là NER.
+
+
+Hình 1.1.a: Sơ đồ kiến trúc transformer kết hợp với attention.
+
+Mô hình sẽ bao gồm 2 phase.
+
+Encoder: Bao gồm 6 layers liên tiếp nhau. Mỗi một layer sẽ bao gồm một sub-layer là Multi-Head Attention kết hợp với fully-connected layer như mô tả ở nhánh encoder bên trái của hình. Kết thúc quá trình encoder ta thu được một vector embedding output cho mỗi từ.
+
+Decoder: Kiến trúc cũng bao gồm các layers liên tiếp nhau. Mỗi một layer của Decoder cũng có các sub-layers gần tương tự như layer của Encoder nhưng bổ sung thêm sub-layer đầu tiên là Masked Multi-Head Attention có tác dụng loại bỏ các từ trong tương lai khỏi quá trình attention.
++ Giải thích cho Hình 1.1.a:
+
+- Mã hóa vị trí: Vì Transformer không có các lớp hồi quy hoặc lớp tích chập, nó không tự nhiên biết thứ tự của các token đầu vào. Do đó, cần có một cách để mô hình biết thông tin này, đó là nhiệm vụ của mã hóa vị trí. Sau các lớp embedding, tạo ra các embedding token, chúng ta thêm các vector mã hóa vị trí đại diện cho vị trí của mỗi từ trong câu.
+
+- Lớp chuẩn hóa: Trong kiến trúc của sơ đồ, lớp "Add & Norm" đề cập đến lớp chuẩn hóa. Lớp này đơn giản là chuẩn hóa đầu ra của multi-head attention, cải thiện hiệu quả hội tụ.
+
+- Kết nối dư: Kết nối dư là một khái niệm đơn giản của việc thêm đầu vào của một khối vào đầu ra của nó. Kết nối này cho phép xếp chồng nhiều lớp trong mạng. Trong sơ đồ, kết nối dư được sử dụng sau các khối FFN (Feed-Forward Network) và attention. Trong phần "Add" của "Add & Norm," nó đại diện cho kết nối dư.
+
+- Khối Feed-Forward: Đây là một khối cơ bản, nơi sau khi thực hiện các tính toán trong khối attention ở mỗi lớp, khối tiếp theo là FFN. Bạn có thể hiểu rằng cơ chế attention giúp thu thập thông tin từ các token đầu vào, và FFN xử lý thông tin đó.
+
+   - BERT là một mô hình học sâu dựa trên Transformer, được huấn luyện hai chiều để dự đoán từ trong ngữ cảnh của nó. Nó được sử dụng rộng rãi vì khả năng hiểu ngữ cảnh tốt, đặc biệt khi áp dụng cho NER.
+   - Token hóa: Sử dụng bộ mã hóa của BERT để chuyển các từ trong câu thành vector.
+   - Fine-tuning: Điều chỉnh BERT bằng cách thêm một lớp phân loại phía trên để mô hình có thể dự đoán nhãn thực thể cho từng token.
+Ghi chú cho hình 7.1: Sau khi tiền huấn luyện cho việc tinh chỉnh toàn bộ mô hình, mô hình mã hóa dựa trên Transformer có thể được tinh chỉnh cho một nhiệm vụ cụ thể. Trong quá trình này, một lượng nhỏ dữ liệu có nhãn được sử dụng để điều chỉnh trọng số của mô hình. Đầu ra của mô hình được so sánh với các nhãn thực tế, và một hàm mất mát như Cross-Entropy được sử dụng để tính toán lỗi và cập nhật trọng số của đường truyền mạng (network) bằng cách sử dụng backpropagation. Hơn nữa, trọng số đã được tiền huấn luyện của mô hình sẽ được chuyển đổi thành trọng số cập nhật dựa trên sự thay đổi trọng số Δ thu được từ quá trình backpropagation. Trong lần lặp tiếp theo, trọng số cập nhật lại được cập nhật với một Δ khác.
+
+   Bước 3: Huấn luyện mô hình
+   - Huấn luyện bằng phương pháp phân loại: Mô hình được huấn luyện với tập huấn luyện bằng cách tối ưu hóa hàm mất mát (loss function), thường là cross-entropy loss.
+   - Trong quá trình huấn luyện, mô hình học cách dự đoán nhãn cho mỗi từ trong chuỗi, dựa trên ngữ cảnh của nó.
+
+   Bước 4: Dự đoán và xử lý sau dự đoán
+   - Sau khi mô hình dự đoán, ta chuyển các nhãn từ ID trở lại định dạng gốc BIO để dễ hiểu.
+   - Các nhãn được đánh giá dựa trên precision (độ chính xác), recall (độ bao phủ) và F1-score để đánh giá chất lượng của mô hình.
+
+3. Ưu điểm và nhược điểm của phương pháp
+   - Ưu điểm:
+     - Các mô hình phân loại hiện đại như BERT có độ chính xác cao nhờ khả năng hiểu ngữ cảnh sâu rộng.
+     - Phù hợp cho các ngôn ngữ có cấu trúc phức tạp, ví dụ như tiếng Việt, nơi ngữ cảnh có thể thay đổi ý nghĩa của từ.
+   - Nhược điểm:
+     - Đòi hỏi tài nguyên tính toán lớn và thời gian huấn luyện lâu.
+     - Cần dữ liệu gán nhãn lớn để mô hình đạt hiệu quả tốt.
+
+4. Ví dụ tổng quan
+   Một chuỗi dữ liệu sau khi được xử lý sẽ có dạng:
+   ```
+   Input: ["Apple", "Inc.", "is", "located", "in", "Cupertino"]
+   Labels: ["B-ORG", "I-ORG", "O", "O", "O", "B-LOC"]
+   ```
+   Sau khi huấn luyện, mô hình có thể dự đoán được nhãn cho các từ trong một câu mới.
+
+
+
+
+
+
