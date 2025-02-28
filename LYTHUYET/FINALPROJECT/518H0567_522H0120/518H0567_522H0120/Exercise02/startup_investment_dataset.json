@@ -1,0 +1,906 @@
+{
+  "train": [
+    {
+      "text": "Mới đây, GoJek đã gọi vốn thành công 10.71 triệu USD từ quỹ đầu tư Sequoia Capital trong lĩnh vực Công nghệ thông tin.",
+      "entities": {
+        "startup": "GoJek",
+        "investor": "Sequoia Capital",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 10.71
+      }
+    },
+    {
+      "text": "VNG, một startup hoạt động trong lĩnh vực Công nghệ thông tin, vừa nhận được khoản đầu tư 42.44 triệu USD từ Softbank.",
+      "entities": {
+        "startup": "VNG",
+        "investor": "Softbank",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 42.44
+      }
+    },
+    {
+      "text": "Grab Ventures đã rót 97.66 triệu USD vào Being - startup triển vọng trong ngành Thương mại điện tử.",
+      "entities": {
+        "startup": "Being",
+        "investor": "Grab Ventures",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 97.66
+      }
+    },
+    {
+      "text": "Mới đây, Grab Việt Nam đã gọi vốn thành công 41.7 triệu USD từ quỹ đầu tư Vertex Ventures trong lĩnh vực Logistics.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "Vertex Ventures",
+        "sector": "Logistics",
+        "investment_amount": 41.7
+      }
+    },
+    {
+      "text": "GoJek, một startup hoạt động trong lĩnh vực Trí tuệ nhân tạo, vừa nhận được khoản đầu tư 69.26 triệu USD từ Jungle Ventures.",
+      "entities": {
+        "startup": "GoJek",
+        "investor": "Jungle Ventures",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 69.26
+      }
+    },
+    {
+      "text": "Mới đây, Sendo đã gọi vốn thành công 35.39 triệu USD từ quỹ đầu tư IDG Ventures trong lĩnh vực Công nghệ thông tin.",
+      "entities": {
+        "startup": "Sendo",
+        "investor": "IDG Ventures",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 35.39
+      }
+    },
+    {
+      "text": "Vertex Ventures đã rót 50.47 triệu USD vào Lazada - startup triển vọng trong ngành Thương mại điện tử.",
+      "entities": {
+        "startup": "Lazada",
+        "investor": "Vertex Ventures",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 50.47
+      }
+    },
+    {
+      "text": "MoMo, một startup hoạt động trong lĩnh vực Công nghệ thông tin, vừa nhận được khoản đầu tư 22.07 triệu USD từ Sequoia Capital.",
+      "entities": {
+        "startup": "MoMo",
+        "investor": "Sequoia Capital",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 22.07
+      }
+    },
+    {
+      "text": "Lazada, một startup hoạt động trong lĩnh vực Logistics, vừa nhận được khoản đầu tư 66.32 triệu USD từ East Ventures.",
+      "entities": {
+        "startup": "Lazada",
+        "investor": "East Ventures",
+        "sector": "Logistics",
+        "investment_amount": 66.32
+      }
+    },
+    {
+      "text": "Sequoia Capital đã rót 64.73 triệu USD vào VinAI - startup triển vọng trong ngành Trí tuệ nhân tạo.",
+      "entities": {
+        "startup": "VinAI",
+        "investor": "Sequoia Capital",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 64.73
+      }
+    },
+    {
+      "text": "Lazada, một startup hoạt động trong lĩnh vực Công nghệ thông tin, vừa nhận được khoản đầu tư 9.6 triệu USD từ East Ventures.",
+      "entities": {
+        "startup": "Lazada",
+        "investor": "East Ventures",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 9.6
+      }
+    },
+    {
+      "text": "Mới đây, Loft đã gọi vốn thành công 79.42 triệu USD từ quỹ đầu tư Vertex Ventures trong lĩnh vực Công nghệ thông tin.",
+      "entities": {
+        "startup": "Loft",
+        "investor": "Vertex Ventures",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 79.42
+      }
+    },
+    {
+      "text": "GIC đã rót 63.55 triệu USD vào Tiki - startup triển vọng trong ngành Trí tuệ nhân tạo.",
+      "entities": {
+        "startup": "Tiki",
+        "investor": "GIC",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 63.55
+      }
+    },
+    {
+      "text": "Mới đây, Lazada đã gọi vốn thành công 53.82 triệu USD từ quỹ đầu tư GIC trong lĩnh vực Fintech.",
+      "entities": {
+        "startup": "Lazada",
+        "investor": "GIC",
+        "sector": "Fintech",
+        "investment_amount": 53.82
+      }
+    },
+    {
+      "text": "Mới đây, GoJek đã gọi vốn thành công 55.2 triệu USD từ quỹ đầu tư Sequoia Capital trong lĩnh vực Công nghệ thông tin.",
+      "entities": {
+        "startup": "GoJek",
+        "investor": "Sequoia Capital",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 55.2
+      }
+    },
+    {
+      "text": "Being, một startup hoạt động trong lĩnh vực Công nghệ thông tin, vừa nhận được khoản đầu tư 19.07 triệu USD từ Sequoia Capital.",
+      "entities": {
+        "startup": "Being",
+        "investor": "Sequoia Capital",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 19.07
+      }
+    },
+    {
+      "text": "500 Startups đã rót 58.04 triệu USD vào Lazada - startup triển vọng trong ngành Trí tuệ nhân tạo.",
+      "entities": {
+        "startup": "Lazada",
+        "investor": "500 Startups",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 58.04
+      }
+    },
+    {
+      "text": "Mới đây, Grab Việt Nam đã gọi vốn thành công 77.4 triệu USD từ quỹ đầu tư Jungle Ventures trong lĩnh vực Công nghệ thông tin.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "Jungle Ventures",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 77.4
+      }
+    },
+    {
+      "text": "IDG Ventures đã rót 14.91 triệu USD vào Loft - startup triển vọng trong ngành Trí tuệ nhân tạo.",
+      "entities": {
+        "startup": "Loft",
+        "investor": "IDG Ventures",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 14.91
+      }
+    },
+    {
+      "text": "Vertex Ventures đã rót 38.51 triệu USD vào VinAI - startup triển vọng trong ngành Fintech.",
+      "entities": {
+        "startup": "VinAI",
+        "investor": "Vertex Ventures",
+        "sector": "Fintech",
+        "investment_amount": 38.51
+      }
+    },
+    {
+      "text": "Mới đây, GoJek đã gọi vốn thành công 39.62 triệu USD từ quỹ đầu tư GIC trong lĩnh vực Fintech.",
+      "entities": {
+        "startup": "GoJek",
+        "investor": "GIC",
+        "sector": "Fintech",
+        "investment_amount": 39.62
+      }
+    },
+    {
+      "text": "IDG Ventures đã rót 45.2 triệu USD vào MoMo - startup triển vọng trong ngành Thương mại điện tử.",
+      "entities": {
+        "startup": "MoMo",
+        "investor": "IDG Ventures",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 45.2
+      }
+    },
+    {
+      "text": "East Ventures đã rót 63.11 triệu USD vào Being - startup triển vọng trong ngành Fintech.",
+      "entities": {
+        "startup": "Being",
+        "investor": "East Ventures",
+        "sector": "Fintech",
+        "investment_amount": 63.11
+      }
+    },
+    {
+      "text": "VinAI, một startup hoạt động trong lĩnh vực Fintech, vừa nhận được khoản đầu tư 3.71 triệu USD từ Sequoia Capital.",
+      "entities": {
+        "startup": "VinAI",
+        "investor": "Sequoia Capital",
+        "sector": "Fintech",
+        "investment_amount": 3.71
+      }
+    },
+    {
+      "text": "Softbank đã rót 56.71 triệu USD vào Sendo - startup triển vọng trong ngành Công nghệ thông tin.",
+      "entities": {
+        "startup": "Sendo",
+        "investor": "Softbank",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 56.71
+      }
+    },
+    {
+      "text": "IDG Ventures đã rót 52.29 triệu USD vào Loft - startup triển vọng trong ngành Công nghệ thông tin.",
+      "entities": {
+        "startup": "Loft",
+        "investor": "IDG Ventures",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 52.29
+      }
+    },
+    {
+      "text": "IDG Ventures đã rót 59.77 triệu USD vào GoJek - startup triển vọng trong ngành Công nghệ thông tin.",
+      "entities": {
+        "startup": "GoJek",
+        "investor": "IDG Ventures",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 59.77
+      }
+    },
+    {
+      "text": "500 Startups đã rót 85.74 triệu USD vào Lazada - startup triển vọng trong ngành Thương mại điện tử.",
+      "entities": {
+        "startup": "Lazada",
+        "investor": "500 Startups",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 85.74
+      }
+    },
+    {
+      "text": "Mới đây, Lazada đã gọi vốn thành công 83.08 triệu USD từ quỹ đầu tư GIC trong lĩnh vực Fintech.",
+      "entities": {
+        "startup": "Lazada",
+        "investor": "GIC",
+        "sector": "Fintech",
+        "investment_amount": 83.08
+      }
+    },
+    {
+      "text": "Tiki, một startup hoạt động trong lĩnh vực Fintech, vừa nhận được khoản đầu tư 63.56 triệu USD từ Vertex Ventures.",
+      "entities": {
+        "startup": "Tiki",
+        "investor": "Vertex Ventures",
+        "sector": "Fintech",
+        "investment_amount": 63.56
+      }
+    },
+    {
+      "text": "Grab Ventures đã rót 64.29 triệu USD vào VNG - startup triển vọng trong ngành Trí tuệ nhân tạo.",
+      "entities": {
+        "startup": "VNG",
+        "investor": "Grab Ventures",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 64.29
+      }
+    },
+    {
+      "text": "Mới đây, Being đã gọi vốn thành công 71.3 triệu USD từ quỹ đầu tư Vertex Ventures trong lĩnh vực Logistics.",
+      "entities": {
+        "startup": "Being",
+        "investor": "Vertex Ventures",
+        "sector": "Logistics",
+        "investment_amount": 71.3
+      }
+    },
+    {
+      "text": "VinAI, một startup hoạt động trong lĩnh vực Công nghệ thông tin, vừa nhận được khoản đầu tư 86.78 triệu USD từ Jungle Ventures.",
+      "entities": {
+        "startup": "VinAI",
+        "investor": "Jungle Ventures",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 86.78
+      }
+    },
+    {
+      "text": "Mới đây, Tiki đã gọi vốn thành công 69.22 triệu USD từ quỹ đầu tư Sequoia Capital trong lĩnh vực Fintech.",
+      "entities": {
+        "startup": "Tiki",
+        "investor": "Sequoia Capital",
+        "sector": "Fintech",
+        "investment_amount": 69.22
+      }
+    },
+    {
+      "text": "Grab Việt Nam, một startup hoạt động trong lĩnh vực Thương mại điện tử, vừa nhận được khoản đầu tư 26.13 triệu USD từ 500 Startups.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "500 Startups",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 26.13
+      }
+    },
+    {
+      "text": "East Ventures đã rót 75.76 triệu USD vào Being - startup triển vọng trong ngành Công nghệ thông tin.",
+      "entities": {
+        "startup": "Being",
+        "investor": "East Ventures",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 75.76
+      }
+    },
+    {
+      "text": "GIC đã rót 57.28 triệu USD vào Grab Việt Nam - startup triển vọng trong ngành Thương mại điện tử.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "GIC",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 57.28
+      }
+    },
+    {
+      "text": "Vertex Ventures đã rót 98.58 triệu USD vào MoMo - startup triển vọng trong ngành Thương mại điện tử.",
+      "entities": {
+        "startup": "MoMo",
+        "investor": "Vertex Ventures",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 98.58
+      }
+    },
+    {
+      "text": "VinAI, một startup hoạt động trong lĩnh vực Fintech, vừa nhận được khoản đầu tư 70.16 triệu USD từ Grab Ventures.",
+      "entities": {
+        "startup": "VinAI",
+        "investor": "Grab Ventures",
+        "sector": "Fintech",
+        "investment_amount": 70.16
+      }
+    },
+    {
+      "text": "Being, một startup hoạt động trong lĩnh vực Thương mại điện tử, vừa nhận được khoản đầu tư 15.85 triệu USD từ IDG Ventures.",
+      "entities": {
+        "startup": "Being",
+        "investor": "IDG Ventures",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 15.85
+      }
+    },
+    {
+      "text": "Lazada, một startup hoạt động trong lĩnh vực Logistics, vừa nhận được khoản đầu tư 34.03 triệu USD từ Sequoia Capital.",
+      "entities": {
+        "startup": "Lazada",
+        "investor": "Sequoia Capital",
+        "sector": "Logistics",
+        "investment_amount": 34.03
+      }
+    },
+    {
+      "text": "Softbank đã rót 79.0 triệu USD vào Grab Việt Nam - startup triển vọng trong ngành Fintech.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "Softbank",
+        "sector": "Fintech",
+        "investment_amount": 79.0
+      }
+    },
+    {
+      "text": "Mới đây, Tiki đã gọi vốn thành công 8.58 triệu USD từ quỹ đầu tư East Ventures trong lĩnh vực Fintech.",
+      "entities": {
+        "startup": "Tiki",
+        "investor": "East Ventures",
+        "sector": "Fintech",
+        "investment_amount": 8.58
+      }
+    },
+    {
+      "text": "Mới đây, MoMo đã gọi vốn thành công 40.0 triệu USD từ quỹ đầu tư Sequoia Capital trong lĩnh vực Fintech.",
+      "entities": {
+        "startup": "MoMo",
+        "investor": "Sequoia Capital",
+        "sector": "Fintech",
+        "investment_amount": 40.0
+      }
+    },
+    {
+      "text": "Grab Việt Nam, một startup hoạt động trong lĩnh vực Fintech, vừa nhận được khoản đầu tư 13.63 triệu USD từ GIC.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "GIC",
+        "sector": "Fintech",
+        "investment_amount": 13.63
+      }
+    },
+    {
+      "text": "Grab Ventures đã rót 81.22 triệu USD vào Sendo - startup triển vọng trong ngành Fintech.",
+      "entities": {
+        "startup": "Sendo",
+        "investor": "Grab Ventures",
+        "sector": "Fintech",
+        "investment_amount": 81.22
+      }
+    },
+    {
+      "text": "IDG Ventures đã rót 65.65 triệu USD vào Grab Việt Nam - startup triển vọng trong ngành Logistics.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "IDG Ventures",
+        "sector": "Logistics",
+        "investment_amount": 65.65
+      }
+    },
+    {
+      "text": "Mới đây, Sendo đã gọi vốn thành công 83.95 triệu USD từ quỹ đầu tư 500 Startups trong lĩnh vực Trí tuệ nhân tạo.",
+      "entities": {
+        "startup": "Sendo",
+        "investor": "500 Startups",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 83.95
+      }
+    },
+    {
+      "text": "MoMo, một startup hoạt động trong lĩnh vực Trí tuệ nhân tạo, vừa nhận được khoản đầu tư 7.1 triệu USD từ Sequoia Capital.",
+      "entities": {
+        "startup": "MoMo",
+        "investor": "Sequoia Capital",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 7.1
+      }
+    },
+    {
+      "text": "Lazada, một startup hoạt động trong lĩnh vực Thương mại điện tử, vừa nhận được khoản đầu tư 33.22 triệu USD từ Vertex Ventures.",
+      "entities": {
+        "startup": "Lazada",
+        "investor": "Vertex Ventures",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 33.22
+      }
+    },
+    {
+      "text": "Mới đây, VNG đã gọi vốn thành công 71.14 triệu USD từ quỹ đầu tư 500 Startups trong lĩnh vực Thương mại điện tử.",
+      "entities": {
+        "startup": "VNG",
+        "investor": "500 Startups",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 71.14
+      }
+    },
+    {
+      "text": "Loft, một startup hoạt động trong lĩnh vực Công nghệ thông tin, vừa nhận được khoản đầu tư 40.48 triệu USD từ 500 Startups.",
+      "entities": {
+        "startup": "Loft",
+        "investor": "500 Startups",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 40.48
+      }
+    },
+    {
+      "text": "Being, một startup hoạt động trong lĩnh vực Logistics, vừa nhận được khoản đầu tư 53.2 triệu USD từ East Ventures.",
+      "entities": {
+        "startup": "Being",
+        "investor": "East Ventures",
+        "sector": "Logistics",
+        "investment_amount": 53.2
+      }
+    },
+    {
+      "text": "500 Startups đã rót 47.82 triệu USD vào MoMo - startup triển vọng trong ngành Thương mại điện tử.",
+      "entities": {
+        "startup": "MoMo",
+        "investor": "500 Startups",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 47.82
+      }
+    },
+    {
+      "text": "Jungle Ventures đã rót 46.18 triệu USD vào VinAI - startup triển vọng trong ngành Trí tuệ nhân tạo.",
+      "entities": {
+        "startup": "VinAI",
+        "investor": "Jungle Ventures",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 46.18
+      }
+    },
+    {
+      "text": "IDG Ventures đã rót 22.94 triệu USD vào Being - startup triển vọng trong ngành Trí tuệ nhân tạo.",
+      "entities": {
+        "startup": "Being",
+        "investor": "IDG Ventures",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 22.94
+      }
+    },
+    {
+      "text": "Sendo, một startup hoạt động trong lĩnh vực Fintech, vừa nhận được khoản đầu tư 31.6 triệu USD từ East Ventures.",
+      "entities": {
+        "startup": "Sendo",
+        "investor": "East Ventures",
+        "sector": "Fintech",
+        "investment_amount": 31.6
+      }
+    },
+    {
+      "text": "Softbank đã rót 94.21 triệu USD vào Lazada - startup triển vọng trong ngành Logistics.",
+      "entities": {
+        "startup": "Lazada",
+        "investor": "Softbank",
+        "sector": "Logistics",
+        "investment_amount": 94.21
+      }
+    },
+    {
+      "text": "Mới đây, Grab Việt Nam đã gọi vốn thành công 26.26 triệu USD từ quỹ đầu tư East Ventures trong lĩnh vực Logistics.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "East Ventures",
+        "sector": "Logistics",
+        "investment_amount": 26.26
+      }
+    },
+    {
+      "text": "VinAI, một startup hoạt động trong lĩnh vực Fintech, vừa nhận được khoản đầu tư 21.58 triệu USD từ 500 Startups.",
+      "entities": {
+        "startup": "VinAI",
+        "investor": "500 Startups",
+        "sector": "Fintech",
+        "investment_amount": 21.58
+      }
+    },
+    {
+      "text": "Mới đây, Grab Việt Nam đã gọi vốn thành công 38.94 triệu USD từ quỹ đầu tư Sequoia Capital trong lĩnh vực Logistics.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "Sequoia Capital",
+        "sector": "Logistics",
+        "investment_amount": 38.94
+      }
+    },
+    {
+      "text": "Mới đây, Sendo đã gọi vốn thành công 58.33 triệu USD từ quỹ đầu tư East Ventures trong lĩnh vực Logistics.",
+      "entities": {
+        "startup": "Sendo",
+        "investor": "East Ventures",
+        "sector": "Logistics",
+        "investment_amount": 58.33
+      }
+    },
+    {
+      "text": "Mới đây, GoJek đã gọi vốn thành công 40.55 triệu USD từ quỹ đầu tư 500 Startups trong lĩnh vực Thương mại điện tử.",
+      "entities": {
+        "startup": "GoJek",
+        "investor": "500 Startups",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 40.55
+      }
+    },
+    {
+      "text": "Sendo, một startup hoạt động trong lĩnh vực Thương mại điện tử, vừa nhận được khoản đầu tư 8.14 triệu USD từ GIC.",
+      "entities": {
+        "startup": "Sendo",
+        "investor": "GIC",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 8.14
+      }
+    },
+    {
+      "text": "Sendo, một startup hoạt động trong lĩnh vực Công nghệ thông tin, vừa nhận được khoản đầu tư 38.39 triệu USD từ IDG Ventures.",
+      "entities": {
+        "startup": "Sendo",
+        "investor": "IDG Ventures",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 38.39
+      }
+    },
+    {
+      "text": "Jungle Ventures đã rót 57.53 triệu USD vào Grab Việt Nam - startup triển vọng trong ngành Fintech.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "Jungle Ventures",
+        "sector": "Fintech",
+        "investment_amount": 57.53
+      }
+    },
+    {
+      "text": "VNG, một startup hoạt động trong lĩnh vực Thương mại điện tử, vừa nhận được khoản đầu tư 0.53 triệu USD từ Vertex Ventures.",
+      "entities": {
+        "startup": "VNG",
+        "investor": "Vertex Ventures",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 0.53
+      }
+    },
+    {
+      "text": "Grab Việt Nam, một startup hoạt động trong lĩnh vực Thương mại điện tử, vừa nhận được khoản đầu tư 85.31 triệu USD từ IDG Ventures.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "IDG Ventures",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 85.31
+      }
+    },
+    {
+      "text": "Grab Việt Nam, một startup hoạt động trong lĩnh vực Fintech, vừa nhận được khoản đầu tư 62.44 triệu USD từ IDG Ventures.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "IDG Ventures",
+        "sector": "Fintech",
+        "investment_amount": 62.44
+      }
+    },
+    {
+      "text": "Vertex Ventures đã rót 53.79 triệu USD vào MoMo - startup triển vọng trong ngành Fintech.",
+      "entities": {
+        "startup": "MoMo",
+        "investor": "Vertex Ventures",
+        "sector": "Fintech",
+        "investment_amount": 53.79
+      }
+    },
+    {
+      "text": "Mới đây, Grab Việt Nam đã gọi vốn thành công 94.72 triệu USD từ quỹ đầu tư Sequoia Capital trong lĩnh vực Trí tuệ nhân tạo.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "Sequoia Capital",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 94.72
+      }
+    },
+    {
+      "text": "Sequoia Capital đã rót 17.46 triệu USD vào Lazada - startup triển vọng trong ngành Thương mại điện tử.",
+      "entities": {
+        "startup": "Lazada",
+        "investor": "Sequoia Capital",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 17.46
+      }
+    },
+    {
+      "text": "Being, một startup hoạt động trong lĩnh vực Thương mại điện tử, vừa nhận được khoản đầu tư 52.93 triệu USD từ Grab Ventures.",
+      "entities": {
+        "startup": "Being",
+        "investor": "Grab Ventures",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 52.93
+      }
+    },
+    {
+      "text": "Mới đây, VNG đã gọi vốn thành công 36.55 triệu USD từ quỹ đầu tư East Ventures trong lĩnh vực Công nghệ thông tin.",
+      "entities": {
+        "startup": "VNG",
+        "investor": "East Ventures",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 36.55
+      }
+    },
+    {
+      "text": "Mới đây, Grab Việt Nam đã gọi vốn thành công 34.87 triệu USD từ quỹ đầu tư 500 Startups trong lĩnh vực Fintech.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "500 Startups",
+        "sector": "Fintech",
+        "investment_amount": 34.87
+      }
+    },
+    {
+      "text": "Mới đây, Loft đã gọi vốn thành công 53.2 triệu USD từ quỹ đầu tư IDG Ventures trong lĩnh vực Công nghệ thông tin.",
+      "entities": {
+        "startup": "Loft",
+        "investor": "IDG Ventures",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 53.2
+      }
+    },
+    {
+      "text": "Mới đây, VNG đã gọi vốn thành công 70.22 triệu USD từ quỹ đầu tư East Ventures trong lĩnh vực Logistics.",
+      "entities": {
+        "startup": "VNG",
+        "investor": "East Ventures",
+        "sector": "Logistics",
+        "investment_amount": 70.22
+      }
+    },
+    {
+      "text": "GoJek, một startup hoạt động trong lĩnh vực Công nghệ thông tin, vừa nhận được khoản đầu tư 13.87 triệu USD từ Grab Ventures.",
+      "entities": {
+        "startup": "GoJek",
+        "investor": "Grab Ventures",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 13.87
+      }
+    },
+    {
+      "text": "Mới đây, Lazada đã gọi vốn thành công 71.77 triệu USD từ quỹ đầu tư Jungle Ventures trong lĩnh vực Công nghệ thông tin.",
+      "entities": {
+        "startup": "Lazada",
+        "investor": "Jungle Ventures",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 71.77
+      }
+    },
+    {
+      "text": "Mới đây, Loft đã gọi vốn thành công 99.57 triệu USD từ quỹ đầu tư Jungle Ventures trong lĩnh vực Fintech.",
+      "entities": {
+        "startup": "Loft",
+        "investor": "Jungle Ventures",
+        "sector": "Fintech",
+        "investment_amount": 99.57
+      }
+    }
+  ],
+  "test": [
+    {
+      "text": "Mới đây, Lazada đã gọi vốn thành công 46.13 triệu USD từ quỹ đầu tư East Ventures trong lĩnh vực Logistics.",
+      "entities": {
+        "startup": "Lazada",
+        "investor": "East Ventures",
+        "sector": "Logistics",
+        "investment_amount": 46.13
+      }
+    },
+    {
+      "text": "VinAI, một startup hoạt động trong lĩnh vực Trí tuệ nhân tạo, vừa nhận được khoản đầu tư 27.83 triệu USD từ Grab Ventures.",
+      "entities": {
+        "startup": "VinAI",
+        "investor": "Grab Ventures",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 27.83
+      }
+    },
+    {
+      "text": "500 Startups đã rót 75.78 triệu USD vào Lazada - startup triển vọng trong ngành Logistics.",
+      "entities": {
+        "startup": "Lazada",
+        "investor": "500 Startups",
+        "sector": "Logistics",
+        "investment_amount": 75.78
+      }
+    },
+    {
+      "text": "Sequoia Capital đã rót 54.24 triệu USD vào Tiki - startup triển vọng trong ngành Trí tuệ nhân tạo.",
+      "entities": {
+        "startup": "Tiki",
+        "investor": "Sequoia Capital",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 54.24
+      }
+    },
+    {
+      "text": "East Ventures đã rót 62.05 triệu USD vào Sendo - startup triển vọng trong ngành Trí tuệ nhân tạo.",
+      "entities": {
+        "startup": "Sendo",
+        "investor": "East Ventures",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 62.05
+      }
+    },
+    {
+      "text": "Mới đây, VNG đã gọi vốn thành công 82.32 triệu USD từ quỹ đầu tư GIC trong lĩnh vực Thương mại điện tử.",
+      "entities": {
+        "startup": "VNG",
+        "investor": "GIC",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 82.32
+      }
+    },
+    {
+      "text": "Grab Việt Nam, một startup hoạt động trong lĩnh vực Fintech, vừa nhận được khoản đầu tư 97.86 triệu USD từ 500 Startups.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "500 Startups",
+        "sector": "Fintech",
+        "investment_amount": 97.86
+      }
+    },
+    {
+      "text": "Mới đây, Sendo đã gọi vốn thành công 51.52 triệu USD từ quỹ đầu tư Grab Ventures trong lĩnh vực Công nghệ thông tin.",
+      "entities": {
+        "startup": "Sendo",
+        "investor": "Grab Ventures",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 51.52
+      }
+    },
+    {
+      "text": "Vertex Ventures đã rót 95.16 triệu USD vào Sendo - startup triển vọng trong ngành Logistics.",
+      "entities": {
+        "startup": "Sendo",
+        "investor": "Vertex Ventures",
+        "sector": "Logistics",
+        "investment_amount": 95.16
+      }
+    },
+    {
+      "text": "Tiki, một startup hoạt động trong lĩnh vực Công nghệ thông tin, vừa nhận được khoản đầu tư 50.78 triệu USD từ GIC.",
+      "entities": {
+        "startup": "Tiki",
+        "investor": "GIC",
+        "sector": "Công nghệ thông tin",
+        "investment_amount": 50.78
+      }
+    },
+    {
+      "text": "500 Startups đã rót 39.7 triệu USD vào Grab Việt Nam - startup triển vọng trong ngành Logistics.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "500 Startups",
+        "sector": "Logistics",
+        "investment_amount": 39.7
+      }
+    },
+    {
+      "text": "Mới đây, VinAI đã gọi vốn thành công 34.93 triệu USD từ quỹ đầu tư Sequoia Capital trong lĩnh vực Trí tuệ nhân tạo.",
+      "entities": {
+        "startup": "VinAI",
+        "investor": "Sequoia Capital",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 34.93
+      }
+    },
+    {
+      "text": "Mới đây, VNG đã gọi vốn thành công 11.57 triệu USD từ quỹ đầu tư Jungle Ventures trong lĩnh vực Thương mại điện tử.",
+      "entities": {
+        "startup": "VNG",
+        "investor": "Jungle Ventures",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 11.57
+      }
+    },
+    {
+      "text": "Mới đây, Lazada đã gọi vốn thành công 55.98 triệu USD từ quỹ đầu tư East Ventures trong lĩnh vực Fintech.",
+      "entities": {
+        "startup": "Lazada",
+        "investor": "East Ventures",
+        "sector": "Fintech",
+        "investment_amount": 55.98
+      }
+    },
+    {
+      "text": "East Ventures đã rót 2.15 triệu USD vào MoMo - startup triển vọng trong ngành Trí tuệ nhân tạo.",
+      "entities": {
+        "startup": "MoMo",
+        "investor": "East Ventures",
+        "sector": "Trí tuệ nhân tạo",
+        "investment_amount": 2.15
+      }
+    },
+    {
+      "text": "GoJek, một startup hoạt động trong lĩnh vực Logistics, vừa nhận được khoản đầu tư 30.78 triệu USD từ Vertex Ventures.",
+      "entities": {
+        "startup": "GoJek",
+        "investor": "Vertex Ventures",
+        "sector": "Logistics",
+        "investment_amount": 30.78
+      }
+    },
+    {
+      "text": "Grab Việt Nam, một startup hoạt động trong lĩnh vực Thương mại điện tử, vừa nhận được khoản đầu tư 48.19 triệu USD từ Grab Ventures.",
+      "entities": {
+        "startup": "Grab Việt Nam",
+        "investor": "Grab Ventures",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 48.19
+      }
+    },
+    {
+      "text": "VNG, một startup hoạt động trong lĩnh vực Thương mại điện tử, vừa nhận được khoản đầu tư 40.81 triệu USD từ Jungle Ventures.",
+      "entities": {
+        "startup": "VNG",
+        "investor": "Jungle Ventures",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 40.81
+      }
+    },
+    {
+      "text": "Mới đây, VinAI đã gọi vốn thành công 70.36 triệu USD từ quỹ đầu tư Sequoia Capital trong lĩnh vực Thương mại điện tử.",
+      "entities": {
+        "startup": "VinAI",
+        "investor": "Sequoia Capital",
+        "sector": "Thương mại điện tử",
+        "investment_amount": 70.36
+      }
+    },
+    {
+      "text": "Mới đây, GoJek đã gọi vốn thành công 67.95 triệu USD từ quỹ đầu tư 500 Startups trong lĩnh vực Logistics.",
+      "entities": {
+        "startup": "GoJek",
+        "investor": "500 Startups",
+        "sector": "Logistics",
+        "investment_amount": 67.95
+      }
+    }
+  ]
+}
